@@ -2695,3 +2695,4 @@ emergency:darurat
 ngumpet:menghindar
 sarankan:saran
 pelay:mainkan
+hoax:hoaks
