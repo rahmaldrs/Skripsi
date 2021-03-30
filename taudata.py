@@ -165,9 +165,9 @@ def cleanText(T, fix={}, lemma=False, lan='id', stops = set(), symbols_remove = 
                 if token in fix.keys():
                     listKata[j] = fix[token]
         if stops:
-            listKata = [tok for tok in listKata if tok not in stops and len(token)>=min_charLen]
+            listKata = [tok for tok in listKata if tok not in stops and len(tok)>=min_charLen]
         else:
-            listKata = [tok for tok in listKata if len(token)>=min_charLen]
+            listKata = [tok for tok in listKata if len(tok)>=min_charLen]
         
         listKataFixed = [] 
         if fixMix:
